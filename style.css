@@ -7,12 +7,12 @@ body, html {
 }
 
 .logo {
-  text-align: bottom;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 .logo img {
-  width: 50px; 
+  width: 100px; 
   height: auto;
 }
 
@@ -33,7 +33,7 @@ body, html {
 
 .login-form h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .login-form label {
