@@ -2,18 +2,8 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: url('milmetroconstruction.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
-
-.logo {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.logo img {
-  width: 100px; 
-  height: auto;
+  background: url('Milmetro/bg.jpg') no-repeat center center fixed;
+  background-size: cover ;
 }
 
 .login-container {
@@ -25,15 +15,15 @@ body, html {
 
 .login-form {
   background-color: rgba(128, 0, 0, 0.8);
-  padding: 30px;
-  border-radius: 20px;
-  width: 400px;
+  padding: 50px;
+  border-radius: 30px;
+  width: 500px;
   color: white;
 }
 
 .login-form h2 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .login-form label {
