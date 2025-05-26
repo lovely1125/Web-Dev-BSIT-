@@ -1,0 +1,79 @@
+/*Login Page*/
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('Milmetro/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: rgba(128, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  color: white;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 20px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  cursor: pointer;
+}
+
+.gender-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.gender-options label {
+  font-weight: bold;
+}
+
+.login-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: maroon;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}

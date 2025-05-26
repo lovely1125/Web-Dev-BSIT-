@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple System Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+
+    .sidebar {
+      width: 200px;
+      float: left;
+      background-color: maroon;
+      color: white;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .sidebar img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 8px 0;
+    }
+
+    .main-content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+
+    .main-content h1,
+    .main-content h2 {
+      color: #333;
+    }
+
+    .main-content ul {
+      padding-left: 20px;
+    }
+
+    .chart-container {
+      background: white;
+      padding: 10px;
+    }
+
+    .chart-container img {
+      width: 100%;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <img src="Milmetro/profile.png" alt="Profile">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="dashboard.html">System Dashboard</a></li>
+      <li><a href="settings.html">System Settings</a></li>
+      <li><a href="audit.html">Audit Trail</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <h1>System Dashboard</h1>
+    <p>Select Period: 
+      <input type="date"> to <input type="date">
+    </p>
+
+    <h2>Summary</h2>
+    <ul>
+      <li>Total Income: $250,000.00</li>
+      <li>Success Rate: 36.2%</li>
+      <li>New Clients: 36</li>
+      <li>Completed Projects: 29</li>
+    </ul>
+
+    <h2>Charts</h2>
+    <div class="chart-container">
+      <img src="Milmetro/dashboard-chart.jpg" alt="Dashboard Chart">
+    </div>
+  </div>
+
+</body>
+</html>

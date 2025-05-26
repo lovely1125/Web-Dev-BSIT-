@@ -1,77 +1,105 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background: url('Milmetro/bg.jpg') no-repeat center center fixed;
-  background-size: cover ;
+  font-family: 'Alice', 'Roboto', sans-serif;
 }
 
-.login-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.login-form {
-  background-color: rgba(128, 0, 0, 0.8);
-  padding: 50px;
-  border-radius: 30px;
-  width: 500px;
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  background-color: maroon;
   color: white;
-}
-
-.login-form h2 {
+  padding-top: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  z-index: 1000;
 }
 
-.login-form label {
-  display: block;
-  margin-top: 10px;
-  font-weight: bold;
+.navigation img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-.login-form input[type="text"],
-.login-form input[type="email"],
-.login-form input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: none;
-  border-radius: 20px;
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.password-container {
-  position: relative;
+.navigation li {
+  padding: 15px 0;
+  font-size: 16px;
 }
 
-.eye-icon {
-  position: absolute;
-  right: 10px;
-  top: 35%;
-  cursor: pointer;
+.navigation a {
+  color: white;
+  text-decoration: none;
 }
 
-.gender-options {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px 0;
+.navigation a:hover {
+  text-decoration: underline;
 }
 
-.gender-options label {
-  font-weight: bold;
+body {
+  margin-left: 220px;
+  padding: 20px;
 }
 
-.login-form button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: none;
-  background-color: white;
+.homepage .about,
+.homepage .services,
+.homepage footer {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.homepage .about h2 {
   color: maroon;
-  border-radius: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 15px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.homepage .about img,
+.homepage .services img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+  height: auto;
+}
+
+.homepage .about p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.homepage .services h2 {
+  color: maroon;
+  text-align: center;
+  margin-top: 0;
+}
+
+.homepage .services h4 {
+  margin-top: 30px;
+  color: #800000;
+}
+
+.homepage .services ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+}
+
+.homepage footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
 }
